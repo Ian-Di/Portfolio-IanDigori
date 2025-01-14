@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button a{
+    padding: 15px 20px;
+
+    text-decoration: none;
+    color: #FFFCF7;
+
+    background-color: black;
+    border: 3px solid #FD8D32;
+    border-radius: 10px;    
+
+    font-size: 2.9vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.button a:hover{
+    background-color: #FFFCF7;
+    transition: 0.5s;
+    color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 800px;
+    background-image: url(./assets/p1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    line-height: 11vh;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.text h1{
+    font-family: "Tilt Prism", sans-serif;
+    font-weight: 400;
+    color: #FD8D32;
+    text-shadow: 0px 0px 10px #FD8D32;
+    font-size: 19vh; 
+}
+
+
+.text h4{
+    font-family: "Kode Mono", monospace;
+    color: #FFFCF7;
+    font-size: 6vh; 
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    padding: 80px 120px;
+    gap: 50px;
+    background-color: #FFFCF7;
+}
+
+.img-abt img{
+    height: 500px;
+    border: 3px solid #FD8D32;
+    border-radius: 100%;
+}
+
+.text-abt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-abt h1{
+    font-size: 7vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.text-abt p{
+    font-size: 2.9vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.habs-frrts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 80px 100px;
+
+    background-color: black;
+    color: #FFFCF7;
+}
+
+.cards-hbs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards-hbs .card:nth-child(3) h2{
+    padding: 8px;
+    text-align: center;
+    border-radius: 30px;
+    border:  4px solid white;
+}
+
+.cards-hbs .card:nth-child(3) h2:hover{
+    background-color: #FFFCF7;
+    color: #FD8D32;
+    transition: 0.5s;
+}
+
+.cards-hbs h1{
+    font-size: 6vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.card{
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+    width: 480px;
+    height: 240px;
+
+    background-color: #FD8D32;
+    border-radius: 20px;
+}
+
+.header-card h1{
+    font-family: "Kode Mono", monospace;
+    font-size: 5vh;
+    font-weight: 400;
+}
+
+.card hr{
+    border: 2px solid;
+    border-radius: 20px;
+    height: 0px;
+}
+
+.detail-card{
+    display: flex;
+    gap: 20px;
+}
+
+.txt-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card:nth-child(3) .txt-card:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.txt-card h1{
+    font-size: 5vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.txt-card h2{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.txt-card p{
+    font-size: 2vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.ferramentas{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-frt h1{
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+    font-size: 4vh;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.frt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.line-num{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.line-num h2{
+    font-size: 4vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.frt:nth-child(2) .line-num hr{
+    border: none;
+    width: 45vh;
+    height: 3px;
+    background: linear-gradient(to right, #FD8D32 95%, white 5%);
+}
+
+.frt:nth-child(3) .line-num hr{
+    border: none;
+    width: 45vh;
+    height: 3px;
+    background: linear-gradient(to right, #FD8D32 50%, white 50%);
+}
+
+.frt:nth-child(4) .line-num hr{
+    border: none;
+    width: 45vh;
+    height: 3px;
+    background: linear-gradient(to right, #FD8D32 80%, white 20%);
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+
+    gap: 80px;
+    
+}
+
+.projetos h1{
+    font-family: "Jura", sans-serif;
+    font-size: 6vh;
+    font-weight: 400;
+}
+
+.part-prj{
+    display: flex;
+    align-items: center;
+}
+
+.part-prj h1{
+    font-family: "Jura", sans-serif;
+    font-size: 6vh;
+    font-weight: 400;
+}
+
+.part-prj h3{
+    font-size: 4vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.part-prj p{
+    font-size: 2.9vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.tec-utl{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    line-height: 30px;
+    font-size: 2.7vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.tec-utl hr{
+    border: 1px solid;
+}
+
+.prj-txt{
+    gap: 20px;
+}
+
+.prj-txt:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+
+.prj-txt .links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.prj-txt .links h3{
+    font-size: 3vh;
+}
+
+.prj-txt .links a img{
+    height: 6vh;
+    border: 2px solid #FD8D32;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.prj-txt .links a img:hover{
+    background-color: #FD8D32;
+    padding: 0px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+
+    background-color: black;
+}
+
+.services .button a{
+    padding: 15px 60px;
+}
+
+.services h1{
+    font-size: 7vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    color: #FFFCF7;
+}
+
+.cards-serv{
+    display: flex;
+    gap: 35px;
+}
+
+.serv-card{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+
+    align-items: center;
+    text-align: center;
+
+    background-color: #FD8D32;
+    border-radius: 15px;
+    color: black;
+}
+
+.serv-card img{
+    height: 14vh;
+}
+
+.serv-card h2{
+    font-size: 5vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.serv-card h3{
+    font-size: 3vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.serv-card:hover{
+    background-color: black;
+    color: #FFFCF7;
+    border: 5px solid #FD8D32;
+    transform: translateY(-30px);
+    transition: 0.3s;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80px;
+    gap: 90px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.formulario h1{
+    color: #FFFCF7;
+    font-size: 5vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.formulario form h1{
+    color: #FFFCF7;
+    font-size: 4vh;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    color: black;
+}
+
+.formulario input{
+    display: flex;
+    padding: 20px;
+    width: 400px;
+
+    border: 5px solid #FD8D32;
+    border-radius: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5vh;
+}
+
+.formulario textarea{
+    display: flex;
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+
+    border: 5px solid #FD8D32;
+    border-radius: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vh;
+}
+
+.formulario button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 200px;
+
+    border: 5px solid #FD8D32;
+    border-radius: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 2vh;
+}
+
+strong{
+    color: #FD8D32;
+    font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+
+    color: #FD8D32;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+}
+
+.footer a{
+    color: #FD8D32;
+}
+
+::-webkit-scrollbar {
+    width: 3px; /* Largura da barra */
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #FD8D32; /* Cor da parte rolável */
+    border-radius: 2px; /* Borda arredondada */
+}
+
+
+::-webkit-scrollbar-track {
+    background: #FFFCF7; /* Cor do fundo */
+    border-radius: 10px;
+}
