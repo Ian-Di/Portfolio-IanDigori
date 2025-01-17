@@ -207,6 +207,7 @@
     display: flex;
     flex-direction: column;
     text-align: end;
+    width: 45vh;
 }
 
 .line-num h2{
@@ -217,21 +218,18 @@
 
 .frt:nth-child(2) .line-num hr{
     border: none;
-    width: 45vh;
     height: 3px;
     background: linear-gradient(to right, #FD8D32 95%, white 5%);
 }
 
 .frt:nth-child(3) .line-num hr{
     border: none;
-    width: 45vh;
     height: 3px;
     background: linear-gradient(to right, #FD8D32 50%, white 50%);
 }
 
 .frt:nth-child(4) .line-num hr{
     border: none;
-    width: 45vh;
     height: 3px;
     background: linear-gradient(to right, #FD8D32 80%, white 20%);
 }
@@ -581,6 +579,17 @@ strong{
     .txt-card p{
         font-size: 2.3vh;
     }
+
+    .frt img{
+        height: 8vh;
+    }
+
+    .line-num{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        width: 30vh;
+    }
     
     .header-frt h1{
         font-size: 5vh;
@@ -619,7 +628,7 @@ strong{
     }
     
     .projeto-imagem img{
-        height: 45vh;
+        height: 36vh;
     }
 
     .tec-utl{
