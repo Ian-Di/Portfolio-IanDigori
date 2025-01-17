@@ -490,6 +490,208 @@ strong{
     color: #FD8D32;
 }
 
+@media screen and (width < 560px){
+    .button a{
+        padding: 15px 20px;
+    
+        text-decoration: none;
+        color: #FFFCF7;
+    
+        background-color: black;
+        border: 3px solid #FD8D32;
+        border-radius: 10px;    
+    
+        font-size: 2.9vh;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    .button a:hover{
+        background-color: #FFFCF7;
+        transition: 0.5s;
+        color: black;
+    }
+    
+    .header{
+        height: 800px;
+        background-image: url(./assets/p1.png);
+        background-position: center;
+        background-size: cover;
+    } 
+    
+    .text h1{
+        font-size: 13vh; 
+        line-height: 11vh;
+    }
+    
+    
+    .text h4{
+        font-size: 4vh; 
+        line-height: 5vh;
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 20px;
+    }
+    
+    .img-abt img{
+        height: 40vh;
+    }
+    
+    .text-abt h1{
+        font-size: 6vh;
+    }
+    
+    .text-abt p{
+        font-size: 2.3vh;
+    }
+    
+    .habs-frrts{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 80px 20px;
+        gap: 50px;
+    }
+    
+    .cards-hbs h1{
+        font-size: 5vh;
+        font-family: "Jura", sans-serif;
+        font-weight: 400;
+    }
+    
+    .card{
+        gap: 10px;
+        width: 350px;
+        height: 340px;
+    }
+    
+    .detail-card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .card:nth-child(3) .txt-card:nth-child(1){
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .txt-card p{
+        font-size: 2.3vh;
+    }
+    
+    .header-frt h1{
+        font-size: 5vh;
+    }
+    
+    .projetos{
+        padding: 80px 20px;
+        gap: 100px;
+    }
+    
+    .projetos h1{
+        font-size: 5vh;
+    }
+
+    .part-prj{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-prj:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .part-prj h1{
+        font-size: 4vh;
+    }
+    
+    .part-prj h3{
+        font-size: 3vh;
+    }
+    
+    .part-prj p{
+        font-size: 2.3vh;
+    }
+    
+    .projeto-imagem img{
+        height: 45vh;
+    }
+
+    .tec-utl{
+        font-size: 2vh;
+    }
+    
+    .tec-utl hr{
+        border: 1px solid;
+    }
+
+    .tec-utl img{
+        height: 8vh;
+    }
+    
+    .prj-txt .links a img{
+        height: 5vh;
+    }
+    
+    .services{
+        flex-direction: column;
+        gap: 100px;
+        padding: 80px 20px;
+    }
+    
+    .services .button a{
+        padding: 15px 60px;
+    }
+    
+    .services h1{
+        font-size: 5vh;
+    }
+    
+    .cards-serv{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .msg{
+        flex-direction: column;
+        justify-content: center;
+    
+        padding: 80px 20pz;
+        gap: 30px;
+    }
+    
+    .msg img{
+        height: 34vh;
+    }
+    
+    .formulario h1{
+        font-size: 3.5vh;
+    }
+    
+    .formulario form h1{
+        font-size: 3vh;
+    }
+     
+    .formulario input{
+        width: 340px;
+        font-size: 2vh;
+    }
+    
+    .formulario textarea{
+        width: 340px;
+    }
+    
+    .footer{
+        font-size: 2vh;
+    }
+    
+}
+
 ::-webkit-scrollbar {
     width: 3px; /* Largura da barra */
 }
