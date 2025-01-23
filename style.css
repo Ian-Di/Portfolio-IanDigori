@@ -554,14 +554,14 @@ strong{
     }
     
     .cards-hbs h1{
-        font-size: 5vh;
+        font-size: 4vh;
         font-family: "Jura", sans-serif;
         font-weight: 400;
     }
     
     .card{
         gap: 10px;
-        width: 350px;
+        width: 320px;
         height: 340px;
     }
     
@@ -628,7 +628,7 @@ strong{
     }
     
     .projeto-imagem img{
-        height: 36vh;
+        height: 20vh;
     }
 
     .tec-utl{
@@ -666,6 +666,10 @@ strong{
         gap: 30px;
     }
     
+    .serv-card{
+        padding: 20px;
+    }
+
     .msg{
         flex-direction: column;
         justify-content: center;
