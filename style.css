@@ -241,7 +241,7 @@
     padding: 80px;
 
     gap: 80px;
-    
+    background-color: #FFFCF7;
 }
 
 .projetos h1{
@@ -251,78 +251,122 @@
 }
 
 .part-prj{
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3vh;
 }
 
-.part-prj .projeto-imagem img{
-    height: 85vh;
-}
-
-.part-prj h1{
-    font-family: "Jura", sans-serif;
-    font-size: 6vh;
-    font-weight: 400;
-}
-
-.part-prj h3{
-    font-size: 4vh;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-}
-
-.part-prj p{
-    font-size: 2.9vh;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-}
-
-.tec-utl{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-    line-height: 30px;
-    font-size: 2.7vh;
-    font-family: "Jura", sans-serif;
-    font-weight: 400;
-}
-
-.tec-utl hr{
-    border: 1px solid;
-}
-
-.prj-txt{
-    gap: 20px;
-}
-
-.prj-txt:nth-child(2){
+.card-prj{
     display: flex;
     flex-direction: column;
-    align-items: end;
-    text-align: right;
+    padding: 20px;
+    gap: 10px;
+    height: 370px;
+
+    background-color: black;
+    border-radius: 20px;
 }
 
-.prj-txt .links{
+.card-prj:nth-child(1) .img-prj{
+    border-radius: 14px;
+    height: 220px;
+    width: 380px;
+    background-image: url(./assets/logo-empresa\ \(2\).png);
+    background-position: center;
+}
+
+.card-prj:nth-child(2) .img-prj{
+    border-radius: 14px;
+    height: 220px;
+    width: 380px;
+    background-image: url(./assets/logo-empresa\ \(1\).png);
+    background-position: center;
+}
+
+.card-prj:nth-child(3) .img-prj{
+    height: 220px;
+    width: 380px;
+    background-image: url(./assets/logo-empresa.png);
+    background-position: center;
+}
+
+.card-prj:nth-child(4) .img-prj{
+    border-radius: 14px;
+    height: 220px;
+    width: 380px;
+    background-image: url(./assets/logo-empresa\ \(3\).png);
+    background-position: center;
+}
+
+
+.card-prj:nth-child(1) .img-prj:hover{
+    border-radius: 14px;
+    height: 380px;
+    background-image: url(./assets/image-expo\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.card-prj:nth-child(2) .img-prj:hover{
+    border-radius: 14px;
+    height: 380px;
+    background-image: url(./assets/image-expo\ \(1\).png);
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.card-prj:nth-child(3) .img-prj:hover{
+    border-radius: 14px;
+    height: 380px;
+    background-image: url(./assets/image-expo.png);
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.card-prj:nth-child(4) .img-prj:hover{
+    border-radius: 14px;
+    height: 380px;
+    background-image: url(./assets/image-expo\ \(3\).png);
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.card-prj .tecs-card{
     display: flex;
+    gap: 8px;
+}
+
+.card-prj .tecs-card img{
+    height: 7vh;
+    background-color: #FFFCF7;
+    border-radius: 10px;
+}
+
+.card-prj .txt-prj{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
 }
 
-.prj-txt .links h3{
-    font-size: 3vh;
-}
-
-.prj-txt .links a img{
-    height: 6vh;
-    border: 2px solid #FD8D32;
-    border-radius: 100%;
-    padding: 2px;
-}
-
-.prj-txt .links a img:hover{
+.txt-prj .button-prj{
+    border-radius: 50%;
     background-color: #FD8D32;
-    padding: 0px;
+}
+
+.card-prj .txt-prj h2{
+    font-family: "Jura", sans-serif;
+    font-size: 3vh;
+    font-weight: 400;
+    color: #FFFCF7;
+}
+
+
+.txt-prj .button-prj img{
+    display: flex;
+    height: 7.5vh;
+    border-radius: 50%;
+    background-color: #FD8D32;
 }
 
 .services{
